@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script defer type="text/javascript" src="data.js"></script>
+    <script defer type="text/javascript" src="app.js"></script>
+    <title>MovieFinder</title>
+  </head>
+
+  <body>
+    <h1>MovieFinder</h1>
+
+    <div class="nav">
+      <div class="nav-radio-buttons">
+        <form class="nav-radio-buttons-option">
+          <input type="radio" name="filter" value="new" id="new" /><label
+            for="new"
+            >New Movies |</label
+          >
+          <input
+            type="radio"
+            name="filter"
+            value="Avengers"
+            id="Avengers"
+          /><label for="Avengers">Avengers |</label>
+          <input type="radio" name="filter" value="Batman" id="Batman" /><label
+            for="Batman"
+            >Batman |</label
+          >
+          <input
+            type="radio"
+            name="filter"
+            value="Princess"
+            id="Princess"
+          /><label for="Princess">Princess |</label>
+          <input type="radio" name="filter" value="X-Men" id="X-Men" /><label
+            for="X-Men"
+            >X-men</label
+          >
+        </form>
+      </div>
+
+      <div class="nav-search">
+        <form class="searchbar">
+          <input type="text" id="search" name="search" value="" />
+        </form>
+      </div>
+    </div>
+    <div class="movies">
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+  </body>
+</html>

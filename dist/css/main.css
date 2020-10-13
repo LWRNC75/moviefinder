@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: slategrey; }
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.nav-radio-buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.nav-option-buttons-option {
+  font-size: 30px; }
+
+.nav-search {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.poster {
+  padding: 0 20px; }
+
+.movies {
+  margin: 0 50px; }
